@@ -1,0 +1,26 @@
+.bulb {
+  display: flex;
+  border: 4px solid rgb(208, 214, 15);
+  justify-content: center;
+  padding: 30px;
+  margin: 20px;
+  height: 25vh;
+  width: 34vw;
+  border-radius: 60%;
+  background-color: rgba(132, 127, 151, 0.138);
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+
+}
+.btn {
+  display: flex;
+  width: min-content;
+  justify-content: center;
+  background-color: blueviolet;
+  height: 20px;
+  
+}
