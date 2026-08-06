@@ -2,12 +2,15 @@ import React from "react";
 import { useState } from "react";
 import "./App.css";
 import UserContextProvider from "./context/UserContextProvider";
-
+import Login from "./components/Login";
+import Profile from "./components/Profile";
 function App() {
   return (
-    <UserContext.Provider>
+    <UserContextProvider>
       <h1>React with Chai</h1>
-    </UserContext.Provider>
+      <Login />
+      <Profile />
+    </UserContextProvider>
   );
 }
 
