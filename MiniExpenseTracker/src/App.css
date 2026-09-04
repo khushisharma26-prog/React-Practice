@@ -1,0 +1,116 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+}
+
+.container {
+  width: 600px;
+  margin: 50px auto;
+  padding: 35px;
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading */
+
+h1 {
+  text-align: center;
+  font-size: 42px;
+  color: #333;
+  margin: 0 0 35px;
+}
+
+/* Input section */
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+}
+
+.form input {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 15px;
+
+  background: #3a3a3a;
+  color: white;
+
+  border: none;
+  border-radius: 8px;
+
+  font-size: 16px;
+}
+
+.form input::placeholder {
+  color: #aaa;
+}
+
+/* Add Expense */
+
+.form button {
+  width: 100%;
+  padding: 15px;
+
+  background: #333;
+  color: white;
+
+  border: none;
+  border-radius: 8px;
+
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.form button:hover {
+  background: #222;
+}
+
+/* TOTAL */
+
+.container > h2 {
+  margin: 25px 0;
+
+  padding: 20px;
+
+  background: #333;
+  color: white;
+
+  border-radius: 10px;
+
+  text-align: center;
+
+  font-size: 28px;
+}
+
+/* Expense List */
+
+.expense-list {
+  margin-top: 20px;
+}
+
+.expense {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 15px;
+  margin-bottom: 12px;
+
+  background: #f1f1f1;
+  border-radius: 8px;
+
+  font-size: 17px;
+  color: #333;
+}
+
+/* Delete */
+
+.expense button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+}
